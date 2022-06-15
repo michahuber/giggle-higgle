@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sharedien-qm';
+  isSidebarToggled: boolean = true;
+
+  constructor() { }
+
+  toggleSidebar() {
+    this.isSidebarToggled = !this.isSidebarToggled;
+  }
 }

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MainpageComponent } from './mainpage.component';
+import { OnlinecalcComponent } from './onlinecalc.component';
 
-describe('MainpageComponent', () => {
-  let component: MainpageComponent;
-  let fixture: ComponentFixture<MainpageComponent>;
+describe('OnlinecalcComponent', () => {
+  let component: OnlinecalcComponent;
+  let fixture: ComponentFixture<OnlinecalcComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MainpageComponent ]
+      declarations: [ OnlinecalcComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MainpageComponent);
+    fixture = TestBed.createComponent(OnlinecalcComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

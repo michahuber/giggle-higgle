@@ -1,4 +1,5 @@
 import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from '@angular/core';
+import {MenuItem} from "./MenuItem";
 
 @Component({
   selector: 'app-sidebar',
@@ -12,6 +13,12 @@ export class SidebarComponent implements OnInit, OnChanges {
 
   @Output()
   isToggledChange: EventEmitter<any> = new EventEmitter<any>();
+
+  menuItems: Array<MenuItem> = [
+    {name: "Online-Calculator", icon:"calculate"},
+    {name: "Example-Shop", icon:"shopping_cart"},
+    {name: "Close", icon:"close"}
+  ];
 
   constructor() { }
 
