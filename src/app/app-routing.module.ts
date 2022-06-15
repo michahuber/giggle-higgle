@@ -8,6 +8,10 @@ const routes: Routes = [
      loadChildren: () => import('./onlinecalc/onlinecalc.module').then(m => m.OnlinecalcModule)
    },
   {
+    path: 'example-shop',
+    loadChildren: () => import('./example-shop/example-shop.module').then(m => m.ExampleShopModule)
+  },
+  {
     path: 'main',
     component: AppComponent
   },
