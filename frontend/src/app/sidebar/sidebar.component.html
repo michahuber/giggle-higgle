@@ -2,7 +2,7 @@
   <mat-sidenav class="sidebar-design" mode="side" [opened]="isToggled">
       <div class="sidevar-div">
         <div *ngFor="let mitem of menuItems">
-          <button mat-button>
+          <button mat-button [routerLink]="mitem.target">
             <mat-icon>{{mitem.icon}}</mat-icon>
             {{mitem.name}}
           </button>

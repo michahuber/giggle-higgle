@@ -11,11 +11,13 @@ import {MatSidenavModule} from "@angular/material/sidenav";
 import {FormsModule} from "@angular/forms";
 import {SidebarComponent} from "./sidebar/sidebar.component";
 import {OnlinecalcModule} from "./onlinecalc/onlinecalc.module";
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent
+    SidebarComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

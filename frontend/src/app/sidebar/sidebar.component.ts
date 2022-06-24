@@ -15,9 +15,9 @@ export class SidebarComponent implements OnInit, OnChanges {
   isToggledChange: EventEmitter<any> = new EventEmitter<any>();
 
   menuItems: Array<MenuItem> = [
-    {name: "Online-Calculator", icon:"calculate"},
-    {name: "Example-Shop", icon:"shopping_cart"},
-    {name: "Close", icon:"close"}
+    {name: "Online-Calculator", icon:"calculate",target:"/onlinecalc"},
+    {name: "Example-Shop", icon:"shopping_cart",target:"/example-shop"},
+    {name: "Close", icon:"close",target:"/main"}
   ];
 
   constructor() { }
