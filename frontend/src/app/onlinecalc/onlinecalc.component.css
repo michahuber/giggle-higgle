@@ -1,0 +1,26 @@
+.online-calc {
+  width: 100%;
+  height: 100%;
+}
+
+.output-digits-box {
+  height: 40%;
+  border: 2px solid black;
+  background: lightgrey;
+  margin: 5px;
+}
+
+.output-digits-lastvalue {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.output-digits-prevvalues {
+  margin: 10px;
+}
+
+.desc {
+  margin: 20px;
+  font-size: 20px;
+}

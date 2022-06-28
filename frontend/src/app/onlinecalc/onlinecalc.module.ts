@@ -4,6 +4,7 @@ import { OnlinecalcComponent } from './onlinecalc.component';
 import {FormsModule} from "@angular/forms";
 import {OnlinecalcRoutingModule} from "./onlinecalc-routing.module";
 import {FlexModule} from "@angular/flex-layout";
+import {MatCardModule} from "@angular/material/card";
 
 
 
@@ -11,11 +12,12 @@ import {FlexModule} from "@angular/flex-layout";
   declarations: [
     OnlinecalcComponent
   ],
-    imports: [
-        CommonModule,
-        OnlinecalcRoutingModule,
-        FormsModule,
-        FlexModule
-    ]
+  imports: [
+    CommonModule,
+    OnlinecalcRoutingModule,
+    FormsModule,
+    FlexModule,
+    MatCardModule
+  ]
 })
 export class OnlinecalcModule { }
