@@ -11,14 +11,12 @@ import {MatSidenavModule} from "@angular/material/sidenav";
 import {FormsModule} from "@angular/forms";
 import {SidebarComponent} from "./sidebar/sidebar.component";
 import {OnlinecalcModule} from "./onlinecalc/onlinecalc.module";
-import { MainComponent } from './main/main.component';
-import {MatCardModule} from "@angular/material/card";
+import {MainModule} from "./main/main.module";
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent,
-    MainComponent
+    SidebarComponent
   ],
     imports: [
         BrowserModule,
@@ -30,7 +28,7 @@ import {MatCardModule} from "@angular/material/card";
         MatSidenavModule,
         FormsModule,
         OnlinecalcModule,
-        MatCardModule
+        MainModule
     ],
   providers: [],
   bootstrap: [AppComponent]

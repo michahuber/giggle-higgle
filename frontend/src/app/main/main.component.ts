@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {CardButtonDescDto} from "./card-button/CardButtonDescDto";
 
 @Component({
   selector: 'app-main',
@@ -7,7 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  cardButtonDtos: CardButtonDescDto[] = [
+    {
+      caption: "Online-Calculator",
+      subCaption: "Zum Rechnen und so",
+      text: "Ein Rechner zum Rechnen. Klingt logisch oder?"
+    }
+  ]
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
