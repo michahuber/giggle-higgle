@@ -12,6 +12,7 @@ import {FormsModule} from "@angular/forms";
 import {SidebarComponent} from "./sidebar/sidebar.component";
 import {OnlinecalcModule} from "./onlinecalc/onlinecalc.module";
 import { MainComponent } from './main/main.component';
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -19,17 +20,18 @@ import { MainComponent } from './main/main.component';
     SidebarComponent,
     MainComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatButtonModule,
-    MatSidenavModule,
-    FormsModule,
-    OnlinecalcModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatButtonModule,
+        MatSidenavModule,
+        FormsModule,
+        OnlinecalcModule,
+        MatCardModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
