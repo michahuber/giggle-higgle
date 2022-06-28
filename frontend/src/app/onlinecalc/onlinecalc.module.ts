@@ -5,19 +5,23 @@ import {FormsModule} from "@angular/forms";
 import {OnlinecalcRoutingModule} from "./onlinecalc-routing.module";
 import {FlexModule} from "@angular/flex-layout";
 import {MatCardModule} from "@angular/material/card";
+import {MatGridListModule} from "@angular/material/grid-list";
+import { NumfieldComponent } from './numfield/numfield.component';
 
 
 
 @NgModule({
   declarations: [
-    OnlinecalcComponent
+    OnlinecalcComponent,
+    NumfieldComponent
   ],
   imports: [
     CommonModule,
     OnlinecalcRoutingModule,
     FormsModule,
     FlexModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule
   ]
 })
 export class OnlinecalcModule { }

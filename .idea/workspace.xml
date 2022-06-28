@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85a014d-a693-44d9-9a73-4df0c4687caf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/onlinecalc/numfield/NumFieldValue.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/onlinecalc/onlinecalc.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/onlinecalc/onlinecalc.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/onlinecalc/onlinecalc.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/onlinecalc/onlinecalc.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/onlinecalc/onlinecalc.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/onlinecalc/onlinecalc.module.ts" afterDir="false" />
     </list>
@@ -42,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656071245310</updated>
       <workItem from="1656071247768" duration="21000" />
-      <workItem from="1656399359462" duration="11609000" />
+      <workItem from="1656399359462" duration="12741000" />
     </task>
     <servers />
   </component>
