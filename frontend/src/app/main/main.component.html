@@ -1,3 +1,5 @@
-<div>
-  <app-card-button *ngFor="let cardButton of cardButtonDtos" [cardButtonDto]="cardButton"></app-card-button>
+<div fxLayout="row wrap" style="height: 100%; width: 100%;">
+  <div fxFlex="50" *ngFor="let cardButton of cardButtonDtos" >
+    <app-card-button [cardButtonDto]="cardButton"></app-card-button>
+  </div>
 </div>

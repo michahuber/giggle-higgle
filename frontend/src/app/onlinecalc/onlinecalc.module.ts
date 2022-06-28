@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { OnlinecalcComponent } from './onlinecalc.component';
 import {FormsModule} from "@angular/forms";
 import {OnlinecalcRoutingModule} from "./onlinecalc-routing.module";
+import {FlexModule} from "@angular/flex-layout";
 
 
 
@@ -10,10 +11,11 @@ import {OnlinecalcRoutingModule} from "./onlinecalc-routing.module";
   declarations: [
     OnlinecalcComponent
   ],
-  imports: [
-    CommonModule,
-    OnlinecalcRoutingModule,
-    FormsModule
-  ]
+    imports: [
+        CommonModule,
+        OnlinecalcRoutingModule,
+        FormsModule,
+        FlexModule
+    ]
 })
 export class OnlinecalcModule { }
